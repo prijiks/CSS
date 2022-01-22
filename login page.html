@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+body{
+	background-color: dimgray;
+	font-family:sans-serif;
+	padding:20px;
+	margin:50px 50px ;
+	}
+.header {
+	background-color: white;
+	padding: 10px;
+	border-radius:10px 10px 0px 0px;
+	}
+* {
+  box-sizing: border-box;
+  }
+.container1{
+	background-color: rgb(8,32,50);
+	color: white;
+	float: left;
+	width: 70%;
+	padding: 50px;
+	height: 500px;
+	border-radius:0px 0px 0px 10px;
+	}
+.container2{	
+	background-color: seagreen;
+	color: white;
+	float: right;
+	width: 30%;
+	padding:100px 30px;
+	height: 500px;
+	border-radius:0px 0px 10px 0px;
+	}
+h4,p{
+	color:white;
+	text-align: left;
+	}
+h4,h1{
+	font-family: arial narrow; 
+
+	}
+.input {
+	background-color:seagreen ;
+	border-bottom: 1px white;
+	color: white;
+	color: white;
+	font-size: 18px;
+	width: 100%;
+	height: 55px;
+	padding: 5px;
+    border: hidden;
+	}
+input[id=login] {
+	background-color:seagreen;
+	color: white;
+	width:60px;
+	height:30px;
+    border: hidden;
+	}
+input[id=login]:hover {
+	background-color: white;
+	color:seagreen;
+	}
+input[id=forgetpassword] {
+	background-color: seagreen;
+	color: white;
+	width:130px;
+	height:30px;
+	border: hidden;
+	}
+input[id=forgetpassword]:hover {
+	background-color: white;
+	color:seagreen; 
+	}
+button{
+	background-color: seagreen;
+	color:white;
+	width:140px;
+	height:30px;
+	}
+button:hover {
+	background-color: white;
+	color:seagreen;
+	}
+div{
+	overflow:hidden;
+}
+.footer a {
+	font-size:10px;
+	color:white;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	.footer a:hover {
+	background-color: white;
+	color: black;
+	}
+</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<header class="header">
+			<img src="reddot.png" alt="reddot">
+			<img src="yellowdot.png" alt="yellowdot">
+			<img src="greendot.png" alt="greendot">
+		</header>
+		<div class="container1">
+			<div><img src="images/favicon.ico" alt="logo"></div><br><br>
+			<h1>Welcome</h1>
+			<h4>Register for an ERC account here</h4>
+			<p>Register for a free ERC account here get access to the webshop, academy and My ERC membership portal. Temper incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrad exercitation ullamco laboris nisi ut alliquiap ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate veli esse cillium dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident,sunt in culpu qui.</p>
+			<button type="submit" value="Register Here">REGISTER HERE</button><br><br><br><br>
+			<div class="footer">
+				<a href="#">CHOOSE LANGUAGE<i class="fa fa-caret-down"></i></a>
+				<a href="#">HELP CENTER</a>
+				<a href="#">ERC WEBSITE</a>
+				<a href="#">ERC WEBSHOP</a>
+			</div>
+		</div>
+		<div class="container2">
+			<form action="" method="POST">
+			<h2>Or login to you account</h2>
+		        <div class="input">
+					<input  type="email" name="youremail" placeholder="Your email" >						
+				</div>
+				<div class="input">
+					<input  type="password" name="password" placeholder="Password">						
+				</div><br><br>
+			<input id="login" value="LOGIN">
+			<input id="forgetpassword" type="submit" value="Forgot Password?">
+			</form>
+		</div>  
+	</div>
+</body>
+</html>
